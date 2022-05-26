@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "haysappc2be7ada_identitypool_c2be7ada",
+    "identityPoolName": "haysapp045d92d1_identitypool_045d92d1",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "haysapc2be7ada",
-    "userPoolName": "haysappc2be7ada_userpool_c2be7ada",
+    "resourceNameTruncated": "haysap045d92d1",
+    "userPoolName": "haysapp045d92d1_userpool_045d92d1",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,12 +31,15 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "haysapc2be7ada_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "haysap045d92d1_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "c2be7ada",
-    "resourceName": "haysappc2be7ada",
+    "sharedId": "045d92d1",
+    "resourceName": "haysapp045d92d1",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
+    "usernameAttributes": [
+      "email"
+    ],
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
